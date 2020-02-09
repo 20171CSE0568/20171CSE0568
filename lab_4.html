@@ -1,131 +1,78 @@
 <html>
-
 <head>
-
-<title>Timetable</title>
-
+<title>Time-Table</title>
+<style>
+table,th,td
+{
+border: 4px solid black;
+font-size: 18px;
+}
+</style>
 </head>
-
-<body bgcolor="powderblue">
-
-<table width="80%" align="center" border="2">
-
-<div id="head_nav">
-
-<tr> <th>Time</th>
-
-<th>Monday</th>
-
-<th>Tuesday</th>
-
-<th>Wednesday</th>
-
-<th>Thrusday</th>
-
-<th>Friday</th>
-
-<th>Saturday</th>
-
-</tr>
-
-</div>
-
+<body>
+<center>
+<h1>Time-Table [6CSE9]</h1>
+<br>
+<table cellspacing="2" cellpadding="20">
 <tr>
-
-<th>10:00 - 11:00</th>
-
-<td>Applied Mathematics </td>
-
-<td>Computer Networks</td>
-
-<td>Information Theory and Coding</td>
-
-<td>Computer Organization and Architecture</td>
-
-<td>Automata Theory</td>
-
-<td>Web Programming</td>
-
-</div>
-
+<th bgcolor="yellow">Day/Time</th>
+<th bgcolor="powderblue">9:00-10:00</th>
+<th bgcolor="powderblue">10:00-11:00</th>
+<th bgcolor="powderblue">11:00-11:15</th>
+<th bgcolor="powderblue">11:15-12:10</th>
+<th bgcolor="powderblue">12:10-1:00</th>
+<th bgcolor="powderblue">1:00-2:00</th>
+<th bgcolor="powderblue">2:00-3:00</th>
+<th bgcolor="powderblue">3:00-4:00</th>
 </tr>
-
 <tr>
-
-<th>11:00 - 12:00</th>
-
-<td>Information Theory and Coding</td>
-
-<td>Web Programming</td>
-
-<td>Computer Networks</td>
-
-<td>Computer Networks</td>
-
-<td>Automata Theory</td>
-
-<td>Applied Mathematics</td>
-
-</div>
-
+<td bgcolor="powderblue"><b>MONDAY</b></td>
+<td colspan="2" bgcolor="indianred" align="center">IT LAB</td>
+<td rowspan="6" bgcolor="lightgreen" align="center">BREAK</td>
+<td align="center" bgcolor="orange">sub4</td>
+<td rowspan="3" bgcolor="lightgreen" align="center">LUNCH</td>
+<td align="center" bgcolor="orange">sub6</td>
+<td align="center" bgcolor="orange">sub7</td>
+<td align="center" bgcolor="orange">sub8</td>
 </tr>
-
-<tr> <th>12:00 - 01:00</td>
-
-<td>Applied Mathematics</th>
-
-<td>Information Theory and Coding</td>
-
-<td>Automata Theory</td>
-
-<td>Computer Networks</td>
-
-<td>Web Programming</td>
-
-<td>Computer Networks</td>
-
-</div>
-
-</tr>
-
 <tr>
-
-<th>01:00 - 02:00</th>
-
-<td>Applied Mathematics</td>
-
-<td>Computer Organization and Architecture</td>
-
-<td>Automata Theory</td>
-
-<td>Web Programming</td>
-
-<td>Information Theory and Coding</td>
-
-<td>Computer Networks</td> </div>
-
+<td bgcolor="powderblue"><b>TUESDAY</b></td>
+<td colspan="2" bgcolor="indianred" align="center">AT</td>
+<td align="center" bgcolor="orange">sub4</td>
+<td align="center" bgcolor="orange">sub6</td>
+<td colspan="2" bgcolor="indianred" align="center">NP LAB</td>
 </tr>
-
 <tr>
-
-<th>02:00 - 03:00</th>
-
-<td>Applied Mathematics</td>
-
-<td>Web Programming</td>
-
-<td>Automata Theory</td>
-
-<td>Computer Organization and Architecture</td>
-
-<td>Information Theory and Coding</td>
-
-<td>Computer Networks</td>
-
-</div>
-
+<td bgcolor="powderblue"><b>WEDNESDAY</b></td>
+<td colspan="2" bgcolor="indianred" align="center">SST</td>
+<td align="center" bgcolor="orange">sub4</td>
+<td align="center" bgcolor="orange">sub6</td>
+<td align="center" bgcolor="orange">sub7</td>
+<td align="center" bgcolor="orange">sub8</td>
 </tr>
-
+<tr>
+<td bgcolor="powderblue"><b>THRUSDAY</b></td>
+<td align="center" bgcolor="orange">sub1</td>
+<td align="center" bgcolor="orange">sub2</td>
+<td colspan="2" bgcolor="indianred" align="center">NP LAB</td>
+<td bgcolor="lightgreen" align="center">LUNCH</td>
+<td align="center" bgcolor="orange">sub7</td>
+<td align="center" bgcolor="orange">sub8</td>
+</tr>
+<tr>
+<td bgcolor="powderblue"><b>FRIDAY</b></td>
+<td colspan="2" bgcolor="indianred" align="center">IT LAB</td>
+<td align="center" bgcolor="orange">sub4</td>
+<td bgcolor="lightgreen" align="center">LUNCH</td>
+<td align="center" bgcolor="orange">sub6</td>
+<td colspan="2" bgcolor="indianred" align="center">AT</td>
+</tr>
+<tr>
+<td bgcolor="powderblue"><b>SATURDAY</b></td>
+<td colspan="2" align="center" bgcolor="orange">Active-Learning</td>
+<td colspan="2" align="center" bgcolor="orange">Active-Learning</td>
+</tr>
 </table>
+</center>
 </body>
 </html>
