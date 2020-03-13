@@ -1,0 +1,28 @@
+<html>
+<head>
+<style>
+p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+h3::first-line{ color:blue; font-variant:small-caps; font-size:xx-large;}
+h3::before{content: url(smiley.png);}
+::selection{ color:red;background:yellow;}
+img:hover{opacity:0.5;}
+
+</style>
+</head>
+<body bgcolor="lightblue">
+<div>Hover over me to show the p element
+  <p>Tada! Here I am!</p>
+</div>
+<h3>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</h3>
+<img src="smiley.png">
+</body>
+</html>
+
